@@ -1,11 +1,14 @@
 /* Xbox One Controller - Black Higher Contrast Sticks */
-/* capture link: https://gamepadviewer.com/?p=1&s=1&editcss=https%3A%2F%2Fraw.githubusercontent.com%2Fbryanzzhu%2Fgamepad_viewer_controllers%2Fmaster%2Fxbox_one_black_stick_contrast.css */
 /* original: https://gamepadviewer.com/style.css */
 
-.edit .xbox .stick {
+.edit.xbox .stick {
     position: absolute;
-    background: url(https://www.bryanzhu.com/misc/xbox_one_black_stick_contrast.svgz);
+    background: url(https://www.bryanzhu.com/misc/xbox_one_black_stick_contrast.svg);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
+}
+
+.edit.xbox .stick.pressed {
+    background-position: 0 0;
 }
