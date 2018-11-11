@@ -2,7 +2,7 @@
 /* raw link: https://raw.githubusercontent.com/bryanzzhu/gamepad_viewer_controllers/master/xbox_one_black_stick_contrast.css */
 /* original: https://gamepadviewer.com/style.css */
 
-.xbox .stick {
+.edit .xbox .stick {
     position: absolute;
     background: url(xbox_one_black_stick_contrast.svgz);
     background-position: -85px 0;
